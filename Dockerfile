@@ -3,7 +3,7 @@ FROM amazoncorretto:17
 
 WORKDIR /app
 
-COPY out/artifacts/*.jar app.jar
+COPY /build/libs/my-app-0.0.1.jar app.jar
 
 EXPOSE 5000
 
